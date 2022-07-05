@@ -7,8 +7,38 @@ package com.example.algorithm.search;
  * @Version : 1.0
  **/
 public class Test10 {
+
+    Node pre, head;
     public Node treeToDoublyList(Node root) {
-        return null;
+
+        if (root == null) return null;
+        inorder(root);
+        head.left = pre;
+        pre.right = head;
+
+        return head;
+    }
+
+    // 中序遍历框架
+    private void inorder(Node root) {
+
+        if (root == null) return;
+
+        // 左
+        inorder(root.left);
+
+        // print root 在框架里面更改核心代码，引入pre记录上一个节点
+        if (pre == null) {
+            // 第一个节点
+            head = root;
+        } else {
+            root.left = pre;
+            pre.right = root;
+        }
+        pre = root;
+
+        // 右
+        inorder(root.right);
     }
 }
 
