@@ -14,7 +14,7 @@ public class Test01 {
     public int n;
 
     public static void main(String[] args) {
-        int[] cookies = new int[]{8,15,10,20,8};
+        int[] cookies = new int[]{8, 15, 10, 20, 8};
         int k = 2;
         Test01 test01 = new Test01();
         System.out.println(test01.distributeCookies(cookies, k));

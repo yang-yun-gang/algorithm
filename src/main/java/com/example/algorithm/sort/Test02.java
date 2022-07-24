@@ -29,7 +29,7 @@ class MedianFinder {
 
     public MedianFinder() {
         minHeap = new PriorityQueue<>();
-        maxHeap = new PriorityQueue<>((o1, o2)->o2 - o1);
+        maxHeap = new PriorityQueue<>((o1, o2) -> o2 - o1);
     }
 
     public void addNum(int num) {

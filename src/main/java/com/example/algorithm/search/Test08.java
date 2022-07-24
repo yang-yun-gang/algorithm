@@ -13,13 +13,13 @@ import java.util.Queue;
  **/
 public class Test08 {
     /**
-      * @Description: 同层按从左到右打印
-      * @Author: young
-      * @Date: 2022-06-24 10:37
-      * @Param root:
-      * @return: int[]
-      * @Version: 1.0
-      **/
+     * @Description: 同层按从左到右打印
+     * @Author: young
+     * @Date: 2022-06-24 10:37
+     * @Param root:
+     * @return: int[]
+     * @Version: 1.0
+     **/
     public int[] levelOrder1(TreeNode root) {
         if (root == null) return new int[0];
         // 借助队列
@@ -37,13 +37,13 @@ public class Test08 {
     }
 
     /**
-      * @Description: 在上述基础上，每一层打印一行
-      * @Author: young
-      * @Date: 2022-06-24 10:37
-      * @Param root:
-      * @return: java.util.List<java.util.List<java.lang.Integer>>
-      * @Version: 1.0
-      **/
+     * @Description: 在上述基础上，每一层打印一行
+     * @Author: young
+     * @Date: 2022-06-24 10:37
+     * @Param root:
+     * @return: java.util.List<java.util.List < java.lang.Integer>>
+     * @Version: 1.0
+     **/
     public List<List<Integer>> levelOrder2(TreeNode root) {
         if (root == null) return new LinkedList<>();
 
@@ -68,13 +68,13 @@ public class Test08 {
     }
 
     /**
-      * @Description: 在上述基础上，奇数层正序，偶数层倒叙打印
-      * @Author: young
-      * @Date: 2022-06-24 10:45
-      * @Param root:
-      * @return: java.util.List<java.util.List<java.lang.Integer>>
-      * @Version: 1.0
-      **/
+     * @Description: 在上述基础上，奇数层正序，偶数层倒叙打印
+     * @Author: young
+     * @Date: 2022-06-24 10:45
+     * @Param root:
+     * @return: java.util.List<java.util.List < java.lang.Integer>>
+     * @Version: 1.0
+     **/
     public List<List<Integer>> levelOrder3(TreeNode root) {
         if (root == null) return new LinkedList<>();
 

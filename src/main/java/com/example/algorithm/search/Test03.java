@@ -80,7 +80,7 @@ public class Test03 {
     }
 
     public static void main(String[] args) {
-        char[][] board = new char[][]{{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
+        char[][] board = new char[][]{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
         String word = "ABCB";
         Test03 test = new Test03();
         System.out.println(test.exist(board, word));

@@ -12,8 +12,8 @@ public class Test07 {
         // 首个利润为0
         int a = 0, min = Integer.MAX_VALUE;
         for (int i = 0; i < prices.length; i++) {
-             a = Math.max(a, prices[i] - min);
-             min = Math.min(min, prices[i]);
+            a = Math.max(a, prices[i] - min);
+            min = Math.min(min, prices[i]);
         }
 
         return a;
@@ -21,6 +21,6 @@ public class Test07 {
 
     public static void main(String[] args) {
         Test07 test = new Test07();
-        System.out.println(test.maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out.println(test.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
     }
 }

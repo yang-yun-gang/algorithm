@@ -77,7 +77,7 @@ public class Test02 {
     }
 
     public static void main(String[] args) {
-        int[] matchsticks = new int[] {12,18,2,2,16,8,7,3,10,12,3,20,2,10,19};
+        int[] matchsticks = new int[]{12, 18, 2, 2, 16, 8, 7, 3, 10, 12, 3, 20, 2, 10, 19};
         Test02 test02 = new Test02();
         System.out.println(test02.makesquare(matchsticks));
         System.out.println(test02.cnt);

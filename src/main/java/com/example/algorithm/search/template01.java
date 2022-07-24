@@ -34,7 +34,7 @@ public class template01 {
 
 
         // 本次动作存在的可能
-        for(int i = 0; i < possible.length; i++) {
+        for (int i = 0; i < possible.length; i++) {
             // 剪枝：第一次动作随意选择一种可能
             if (p == n - 1 && i > 0) return;
 

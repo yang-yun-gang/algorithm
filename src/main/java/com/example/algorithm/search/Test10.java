@@ -9,6 +9,7 @@ package com.example.algorithm.search;
 public class Test10 {
 
     Node pre, head;
+
     public Node treeToDoublyList(Node root) {
 
         if (root == null) return null;
@@ -47,13 +48,14 @@ class Node {
     public Node left;
     public Node right;
 
-    public Node() {}
+    public Node() {
+    }
 
     public Node(int _val) {
         val = _val;
     }
 
-    public Node(int _val,Node _left,Node _right) {
+    public Node(int _val, Node _left, Node _right) {
         val = _val;
         left = _left;
         right = _right;

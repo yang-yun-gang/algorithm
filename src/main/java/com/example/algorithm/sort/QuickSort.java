@@ -53,6 +53,6 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] nums = {4, 1, 3, 2, 5};
         QuickSort.sort(nums);
-        Arrays.stream(nums).forEach((i)-> System.out.print(i + ","));
+        Arrays.stream(nums).forEach((i) -> System.out.print(i + ","));
     }
 }

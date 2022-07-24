@@ -32,7 +32,7 @@ public class Test01 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{0,1,2,1};
+        int[] arr = new int[]{0, 1, 2, 1};
         Test01 test = new Test01();
         System.out.println(test.getLeastNumbers(arr, 1));
     }
