@@ -41,5 +41,6 @@ public class Test01 {
 class ListNode {
      int val;
      ListNode next;
+     ListNode(){}
      ListNode(int x) { val = x; }
 }
